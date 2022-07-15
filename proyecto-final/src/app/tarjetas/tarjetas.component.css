@@ -1,0 +1,28 @@
+.tarjeta{
+    border: 2px solid black;
+    width: 50%;
+    height: 96%;
+    text-align: center;
+    background-color:  orangered;
+    align-items: center;
+}
+.imagen{
+    display: flex;
+    width: 180px;
+    height: 150px;
+    align-items: center;
+    margin: 15px;
+}
+p{
+    background-color: black;
+    color: white;
+    height: 20px;
+    width: 130px;
+    align-items: center;
+    margin: 40px;
+}
+.logo{
+    display: block;
+    width: 40px;
+    height: 30px;
+}
