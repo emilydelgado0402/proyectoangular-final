@@ -13,6 +13,7 @@ export class GameComponent implements OnInit {
   constructor(private servicio:ServiciogameService) {
     servicio.informacion().subscribe((data)=>{
       this.inforecibida=data
+      console.log(this.inforecibida)
     })
    }
 

@@ -2,8 +2,8 @@
 
 <h1>Games</h1>
 
-<input class="input" type="Buscar" placeholder="Search Games">
+<input class="input" type="Buscar" #valor placeholder="Search Games">
 
-<button class="boton">Buscar</button>
+<button class="boton" (click)="buscar(valor.value)">Buscar</button>
 
 </section>

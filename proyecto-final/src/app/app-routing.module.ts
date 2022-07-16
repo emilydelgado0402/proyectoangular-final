@@ -7,8 +7,8 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
 const routes: Routes = [
     {path:"game",component:GameComponent},
     {path:"detalles",component:DetallesComponent},
-    {path:"busqueda",component:BusquedaComponent},
-    {path:"",component:GameComponent}
+    {path:"",component:GameComponent},
+    {path:"search/:id",component:BusquedaComponent }
 ];
 
 @NgModule({

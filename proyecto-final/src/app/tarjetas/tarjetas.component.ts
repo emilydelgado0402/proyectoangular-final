@@ -9,6 +9,5 @@ export class TarjetasComponent {
 
   @Input()imagen:string=''
   @Input()parrafo:string=''
-  @Input()logo:string=''
 
 }

@@ -1,1 +1,5 @@
-<app-tarjetas></app-tarjetas>
+<section class="img">
+
+    <app-tarjetas *ngFor="let juego of busqueda.results" [imagen]="juego.background_image" [parrafo]="juego.name"></app-tarjetas>
+    
+    </section>
