@@ -15,6 +15,7 @@
     height: 150px;
     align-items: center;
     margin: 10px;
+    border-image: auto;
 }
 p{
     color: black;
@@ -23,13 +24,12 @@ p{
     align-items: center;
     margin: 40px;
     font-size: 15px;
+    font-weight: bold;
 }
 button{
-    display: flex;
     text-align: center;
     background-color: black;
     color: white;
     border: 3px;
     margin: 50px;
-
 }

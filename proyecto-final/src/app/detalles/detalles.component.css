@@ -3,12 +3,16 @@
     color: black ;
     text-align: center;
     text-decoration-line: line;
-    background-color: orangered;
+    
 }
 
 .descripcion{
     font-size: 20px;
-    color: black ;
+    color: black;
     text-align: center;
     text-decoration-line: line;
+    border: 4px solid black;
+    border-width: 9px;
+    font-weight: bold;
+    background-color: #bfc0c0;
 }
