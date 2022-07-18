@@ -1,0 +1,14 @@
+.name{
+    font-size: 50px;
+    color: black ;
+    text-align: center;
+    text-decoration-line: line;
+    background-color: orangered;
+}
+
+.descripcion{
+    font-size: 20px;
+    color: black ;
+    text-align: center;
+    text-decoration-line: line;
+}

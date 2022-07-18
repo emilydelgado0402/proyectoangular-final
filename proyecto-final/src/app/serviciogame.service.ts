@@ -12,7 +12,11 @@ export class ServiciogameService {
     return this.http.get("https://api.rawg.io/api/games?key=73a7407d4e6d457a9e7d357e00ff02d8")
   }
 
-  infobuscar(busqueda:string){
-    return this.http.get(`https://api.rawg.io/api/games?key=73a7407d4e6d457a9e7d357e00ff02d8&search${busqueda}`)
+  infobuscar(valorBusqueda:string){
+    return this.http.get(`https://api.rawg.io/api/games?key=73a7407d4e6d457a9e7d357e00ff02d8&search=${valorBusqueda}`)
+
   }
+  infodetalles(id:string){
+    return this.http.get(`https://api.rawg.io/api/games/${id}?key=73a7407d4e6d457a9e7d357e00ff02d8`)
+}
 }

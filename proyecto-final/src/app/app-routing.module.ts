@@ -6,7 +6,7 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
 
 const routes: Routes = [
     {path:"game",component:GameComponent},
-    {path:"detalles",component:DetallesComponent},
+    {path:"detalles/:value",component:DetallesComponent},
     {path:"",component:GameComponent},
     {path:"search/:id",component:BusquedaComponent }
 ];
